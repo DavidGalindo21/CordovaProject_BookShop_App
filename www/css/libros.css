@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+h5{
+    font-weight: 800;
+}
+h6{
+    letter-spacing: 2px;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    background-image: url(../img/fondo_card.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+:root{
+    --color-fondo: #e6b68b;
+    --colo-naranja: #fc4b08;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+.navbar-nav{
+    background: #212529;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+.formulario textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+    border: none;
+    box-shadow: -14px 1px 39px 6px rgba(0,0,0,0.32);
+-webkit-box-shadow: -14px 1px 39px 6px rgba(0,0,0,0.32);
+-moz-box-shadow: -14px 1px 39px 6px rgba(0,0,0,0.32);
+}
+.formulario label{
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: #000;
+}
+.card{
+    background: #F7E5E3;
+}
+.modal-content{
+    background-color: rgb(241, 236, 184);
+}

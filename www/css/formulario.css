@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;800;900&display=swap');
+:root{
+    --color-fondo: ;
+    --colo-naranja: #fa996c;
+}
+html{
+    height: 100vh;
+    width: 100%;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(241, 236, 184);
+}
+nav{
+    background: rgba(255,255,255,.5);
+    backdrop-filter: blur(5px);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+}
+/* .background{
+    position: relative;
+    height: 110vh;
+    width: 100vw;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+} */
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .contenedor-may{
+    border-radius: 5px;
+    box-shadow: -11px 10px 50px 9px rgba(0,0,0,0.49);
+    width: 95%;
+    height: 100%;
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+.nav-link{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+.navbar-nav{
+    background: #2125293a;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+.form-group{
+    width: 100%;
+}
+.form-group label{
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-weight: 600;
+}
+.form-group input[type="text"] {
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid #fff;
+    background: rgba(162, 202, 223, 0.5);
+    border: 2px solid #0978b07a;
+    border-radius: 0px;
+    outline: none;
+    color: #7c7272;
+}
+.registrar{
+    background: rgba(64, 145, 109, 0.863); 
+    border: none;
+    color: #000000;
+}
+.form-group input[type="file"]{
+    background: rgba(64, 145, 109, 0.63);
+}
+.form-group textarea{
+    border: none;
+    outline: none;
+    background: rgba(0,0,0,0.2);
+    backdrop-filter: blur(2px);
+    background:  rgba(162, 202, 223, 0.5);
+    border: 2px solid #0979b0;
+    padding: 10px;
+    font-weight: 400;
+}
+.form-group textarea::placeholder{
+    color: #000;
+    font-weight: 200;
+}
+.form-contenedor{
+    width: 100%;
+}
+option{
+    background-color: #C3A59D;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
